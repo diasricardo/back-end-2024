@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+header{
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    gap: 2rem;
+    box-shadow: 0 3px 4px rgba(2,0,48,0.5);
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header > nav{
+    display: flex;
+    gap: 15px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: #e7f3ff;
+    font-weight: bold;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px rgba(2,0,48,0.5);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 30dvh;
+}
+
+.container > img{
+    width: 10rem;
+
+}
+
+
+footer{
+    background-color: #1e90ff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -3px 4px rgba(2,0,48,0.5);
+}
+
+.titulo{
+    text-align: center;
+    color: #2f81d2;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+}
+
+input{
+    width: 95%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    border: 0;
+    color: #e7f3ff;
+    font-size: large;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-juros{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.texto-card{
+    font-weight: 600;
+    width: 100%;
+    background-color: #1e90ff;
+    margin-bottom: 2rem;
+    color: #e7f3ff;
+}
+
+.card-juros > img{
+    width: 75%;
+    height: 65%;
+}
+
